@@ -1,9 +1,9 @@
 # ChineseMed-TCM-Detection Dataset
 ![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg?style=plastic)
-![License CC](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey.svg?style=plastic)
+![License CC](https://img.shields.io/badge/license-CC-green.svg?style=plastic)
 ![Format JPG](https://img.shields.io/badge/format-JPG/PNG-green.svg?style=plastic)
 ![Resolution 640×640](https://img.shields.io/badge/resolution-640×640-green.svg?style=plastic)
-![Images 50,000](https://img.shields.io/badge/images-50,000-green.svg?style=plastic)
+![Images 18,000](https://img.shields.io/badge/images-18,000-green.svg?style=plastic)
 
 ![TCM Detection Demo](./tcm-teaser.jpg)
 
