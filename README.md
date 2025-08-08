@@ -13,6 +13,18 @@ ChineseMed-TCM-Detection is a high-quality image dataset of Traditional Chinese 
 > Your Name (Your Affiliation)  
 > [Paper Link] or [GitHub Repository](https://github.com/yourname/ChineseMed-TCM-Detection)
 
+# 数据集下载
+由于文件较大，请从百度网盘下载：
+
+🔗 [百度网盘链接]( https://pan.baidu.com/s/18mcia4KaKQfOci-duvIdOQ?pwd=rkft)  
+🔑 提取码（如有）：`rkft`
+
+# Dataset Download
+Due to the large file size, please download from Baidu NetDisk:
+
+🔗 [Baidu NetDisk Link](https://pan.baidu.com/s/18mcia4KaKQfOci-duvIdOQ?pwd=rkft)  
+🔑 Extraction Code (if required): `rkft`
+
 ## Dataset Characteristics
 - 50,000 high-resolution images covering 120+ common TCM herbs
 - Manually annotated with bounding boxes and herb categories
