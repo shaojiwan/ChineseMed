@@ -5,7 +5,6 @@
 ![Resolution 640×640](https://img.shields.io/badge/resolution-640×640-green.svg?style=plastic)
 ![Images 18,000](https://img.shields.io/badge/images-18,000-green.svg?style=plastic)
 
-![TCM Detection Demo](./TCM%20Detection%20Demo.png)
 
 ChineseMed-TCM-Detection is a high-quality image dataset of Traditional Chinese Medicine herbs, developed for object detection and quality assessment applications:
 
