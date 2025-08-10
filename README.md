@@ -26,16 +26,7 @@ Due to the large file size, please download from Baidu NetDisk:
 🔑 Extraction Code (if required): `rkft`
 
 ## Dataset Characteristics
-- 50,000 high-resolution images covering 120+ common TCM herbs
-- Manually annotated with bounding boxes and herb categories
-- Balanced distribution across:
-  - Raw herbs (35%)
-  - Sliced preparations (45%)
-  - Powdered forms (20%)
-- Includes metadata for:
-  - Geographic origin
-  - Harvesting season
-  - Quality grade (A/B/C)
+- 18000 high-resolution images covering 120+ common TCM herbs
 
 ## Licenses
 ### Image Licenses
