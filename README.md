@@ -1,46 +1,29 @@
-# ChineseMed-TCM-Detection Dataset
-![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg?style=plastic)
-![License CC](https://img.shields.io/badge/license-CC-green.svg?style=plastic)
-![Format JPG](https://img.shields.io/badge/format-JPG/PNG-green.svg?style=plastic)
-![Resolution 640×640](https://img.shields.io/badge/resolution-640×640-green.svg?style=plastic)
-![Images 18,000](https://img.shields.io/badge/images-18,000-green.svg?style=plastic)
+## TCM-YOLOv11 Dataset & Model
 
+[![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg?style=plastic)](https://www.python.org/downloads/release/python-390/)
+[![License CC](https://img.shields.io/badge/license-CC-green.svg?style=plastic)](https://creativecommons.org/licenses/by/4.0/)
+[![Format JPG](https://img.shields.io/badge/format-JPG-green.svg?style=plastic)]()
+[![Resolution 640×640](https://img.shields.io/badge/resolution-640×640-green.svg?style=plastic)]()
+[![Images 18,000](https://img.shields.io/badge/images-18,000-green.svg?style=plastic)]()
 
-ChineseMed-TCM-Detection is a high-quality image dataset of Traditional Chinese Medicine herbs, developed for object detection and quality assessment applications:
+![Teaser image](./tcm-yolov11-teaser.png)
 
-> **TCM Herb Detection with Modified YOLOv11**  
-> Your Name (Your Affiliation)  
-> [Paper Link] or [GitHub Repository](https://github.com/yourname/ChineseMed-TCM-Detection)
+TCM-YOLOv11 是一个用于中药材识别与检测的高质量图像数据集与模型，结合 YOLOv11 架构进行优化，适配于药材外观检测、分类、缺陷识别等任务。
 
-# 数据集下载
-由于文件较大，请从百度网盘下载：
+> **基于多尺度特征增强与轻量化注意力机制的中药材检测模型**
+>  
+> **作者**: XXX (机构)，YYY (机构)，ZZZ (机构)  
+> **论文链接**: [arXiv:YYYY.NNNNN](https://arxiv.org/abs/YYYY.NNNNN)
 
-🔗 [百度网盘链接]( https://pan.baidu.com/s/18mcia4KaKQfOci-duvIdOQ?pwd=rkft)  
-🔑 提取码（如有）：`rkft`
+本数据集包含 **18,000 张** 中药材高清图片（分辨率 640×640），覆盖 200+ 种常见药材，包含不同的拍摄角度、光照、背景与遮挡情况。数据还包含丰富的附加信息标签，包括药材品种、部位、状态（干燥/新鲜）、缺陷类型等。
 
-# Dataset Download
-Due to the large file size, please download from Baidu NetDisk:
+### 特点
+- **高多样性**：涵盖不同光照条件、拍摄设备、背景及形态。
+- **精细标注**：基于 COCO 格式，提供精确的边界框信息。
+- **任务适配**：可直接用于目标检测、分类、实例分割等任务。
 
-🔗 [Baidu NetDisk Link](https://pan.baidu.com/s/18mcia4KaKQfOci-duvIdOQ?pwd=rkft)  
-🔑 Extraction Code (if required): `rkft`
-
-## Dataset Characteristics
-- 18000 high-resolution images covering 120+ common TCM herbs
-
-## Licenses
-### Image Licenses
-All images are collected under:
-- [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-- Original photography by contributors (all rights transferred)
-
-### Dataset License
-The complete dataset (including annotations and tools) is released under:  
-[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-**Permitted Use Cases**:
-- Non-commercial research
-- Educational applications
-- Open-source projects
-
-## Data Structure
+### 使用方法
+1. 克隆本仓库：
+   ```bash
+   git clone https://github.com/yourname/tcm-yolov11.git
+   cd tcm-yolov11
